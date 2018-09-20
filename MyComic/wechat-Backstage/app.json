@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/more/more",
+    
+    "pages/type/type",
+    "pages/detail/detail",
+    "pages/rank/rank",  
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#333333",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/index_selected.png",
+        "iconPath": "images/index_normal.png",
+        "pagePath": "pages/index/index",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/type_selected.png",
+        "iconPath": "images/type_normal.png",
+        "pagePath": "pages/type/type",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/my_selected.png",
+        "iconPath": "images/my_normal.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MyComic",
+    "navigationBarTextStyle":"black"
+  }
+}
